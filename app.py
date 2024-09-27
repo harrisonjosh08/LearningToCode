@@ -1,0 +1,5 @@
+First_Name = input("First Name? ")
+Surname = input("Surname? ")
+Age = input("Age? ")
+New_Patient = input("New Patient? ")
+print(First_Name, Surname, Age, New_Patient)
