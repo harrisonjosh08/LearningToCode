@@ -1,6 +1,8 @@
+"""Weight Converter"""
+
 Weight = input("Weight: ")
-Type = input("(K)g or (L)bs: ")
-if Type.upper() == 'K' or Type.lower() == 'k':
+unit = input("(K)g or (L)bs: ")
+if unit.upper() == "K" or unit.lower() == "k":
     print("Weight in Lbs:", float(Weight) * 2.205)
-if Type.upper() == 'L' or Type.lower() == 'l':
+if unit.upper() == "L" or unit.lower() == "l":
     print("Weight in KG:", float(Weight) // 2.205)
