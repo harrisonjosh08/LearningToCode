@@ -1,5 +1,18 @@
+"""Patient Details"""
+
 First_Name = input("First Name? ")
 Surname = input("Surname? ")
 Age = input("Age? ")
 New_Patient = input("New Patient? ")
-print("Name: ", First_Name, "Surname: ", Surname, "Age", Age, "New Patient: ", New_Patient)
+print(
+    "Name: ",
+    First_Name,
+)
+print(
+    "Surname: ",
+    Surname,
+)
+print(
+    "Age",
+    Age,
+)
