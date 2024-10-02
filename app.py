@@ -16,3 +16,7 @@ print(
     "Age",
     Age,
 )
+print(
+    "New_Patient",
+    New_Patient,
+)
