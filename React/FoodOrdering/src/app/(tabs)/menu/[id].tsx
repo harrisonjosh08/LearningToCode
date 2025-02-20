@@ -83,7 +83,7 @@ const styles = StyleSheet.create({
   price: {
     fontSize: 18,
     fontWeight: 'bold',
-    marginTop: '150',
+    marginTop: 100,
   },
   sizes: {
     flexDirection: 'row',
@@ -100,7 +100,7 @@ const styles = StyleSheet.create({
     fontSize: 20,
     fontWeight: '500',
     color: 'black',
-  },
+  }
 })
 
 export default ProductDetailsScreen;
